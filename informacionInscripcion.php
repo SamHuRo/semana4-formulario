@@ -18,7 +18,31 @@ $genero = $_POST['Genero'];
 $politica = $_POST['Politica'];
 
 
+foreach ($_POST as $clave => $valor) {
+    echo "Clave: " . $clave . ", Valor: " . $valor . "<br>";
+}
 ?>
 
-<h1>El resultado es: <?php echo $resultado; ?></h1>
-<a href="index.php">Regrasar a la calculadora</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Modulo 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Información de la Inscripción</h1>
+    </div>
+    
+    <div class="contenedor">
+        <table>
+            <?php
+
+            ?>
+        </table>
+    </div>
+
+    <a href="index.php">Regrasar a la calculadora</a> 
+</body>
