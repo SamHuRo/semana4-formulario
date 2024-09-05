@@ -21,10 +21,10 @@
         
 
         <label for="NombreLabel">Nombre:</label>
-	    <input type="text" name="Nombre" required=""><br><br>
+	    <input type="text" name="Nombre"><br><br>
 
         <label for="ApellidosLabel">Apellidos:</label>
-	    <input type="text" name="Apellidos" required=""><br><br>
+	    <input type="text" name="Apellidos"><br><br>
 
         <label for="CorreoLabel">Correo:</label>
 	    <input type="email" name="Correo" required=""><br><br>
@@ -33,7 +33,7 @@
 	    <input type="email" name="ConfirmarCorreo" required=""><br><br>
 
 	    <label for="PaisLabel">Pais:</label>
-	    <select name="Pais" required="">
+	    <select name="Pais">
 		    <option disabled="">Seleccione</option>
 		    <option value="Colombia">Colombia</option>
 		    <option value="Venezuela">Venezuela</option>
@@ -44,13 +44,13 @@
 	    </select><br><br>
 
 	    <label for="DepartamentoLabel">Departamento:</label>
-	    <input type="text" name="Departamento" required=""><br><br>
+	    <input type="text" name="Departamento"><br><br>
 
         <label for="CiudadLabel">Ciudad:</label>
-	    <input type="text" name="Ciudad" required=""><br><br>
+	    <input type="text" name="Ciudad"><br><br>
 
         <label for="EdadLabel">Edad:</label>
-	    <select name="Edad" required="">
+	    <select name="Edad">
 		    <option disabled="">Seleccione</option>
 		    <option value="1">Menor de 18</option>
 		    <option value="2">18 a 25</option>
@@ -60,13 +60,13 @@
 	    </select><br><br>
 
         <label for="DireccionLabel">Direccion:</label>
-	    <input type="text" name="Direccion" required=""><br><br>
+	    <input type="text" name="Direccion"><br><br>
 
         <label for="TelefonoLabel">Telefono de Contacto:</label>
-	    <input type="text" name="Telefono" maxlength="10" required=""><br><br>
+	    <input type="text" name="Telefono" maxlength="10"><br><br>
 
         <label for="DiplomadoLabel">Diplomado:</label>
-	    <select name="Diplomado" required="">
+	    <select name="Diplomado">
 		    <option disabled="">Seleccione</option>
 		    <option value="php">Programación en PHP</option>
 		    <option value="java">Programación en Java</option>
