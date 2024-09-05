@@ -11,7 +11,7 @@
         <h1>Formulario</h1>
     </div>
 
-    <form method="POST" action="infromacionInscripcion.php">
+    <form method="POST" action="informacionInscripcion.php">
         <label for="DocumentoLabel">Numero de documento:</label>
 	    <input type="number" name="Documento" required=""><br><br>
 
@@ -140,7 +140,9 @@
         }
         ?><br><br>
 
-        <input type="submit" value="Enviar">
+        <a href="informacionInscripcion.php">
+            <input type="submit" value="Enviar">
+        </a>
     </form>
 </body>
 </html>
