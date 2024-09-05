@@ -5,7 +5,7 @@ $confirmarDocumento = $_POST['ConfirmarDocumento'];
 $correo = $_POST['Correo'];
 $confirmarCorreo = $_POST['ConfirmarCorreo'];
 
-if($documento != $confirmarDocumento){
+if($documento != $confirmarDocumento || $correo != $confirmarCorreo){
     header("Location: index.php");
     exit;
 }
