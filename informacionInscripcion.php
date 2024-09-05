@@ -17,8 +17,10 @@ $informacion = $_POST['Informacion'];
 $genero = $_POST['Genero'];
 $politica = $_POST['Politica'];
 
-
-
+if ($documento != $confirmarDocumento) {
+    header('Location: index.php', true, 302);
+    exit;
+}
 ?>
 
 <!DOCTYPE html>

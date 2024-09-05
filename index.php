@@ -11,12 +11,14 @@
         <h1>Formulario</h1>
     </div>
 
-    <form method="POST" action="informacionInscripcion.php">
+    <form method="POST" action="infromacionInscripcion.php">
         <label for="DocumentoLabel">Numero de documento:</label>
 	    <input type="number" name="Documento" required=""><br><br>
 
         <label for="ConfirmarDocumentoLabel">Confirmar Numero de documento:</label>
 	    <input type="number" name="ConfirmarDocumento" required=""><br><br>
+
+        
 
         <label for="NombreLabel">Nombre:</label>
 	    <input type="text" name="Nombre" required=""><br><br>
@@ -138,7 +140,7 @@
         }
         ?><br><br>
 
-	    <a href="informacionInscripcion.php"><input type="submit" value="Enviar"></a>
+        <input type="submit" value="Enviar">
     </form>
 </body>
 </html>
