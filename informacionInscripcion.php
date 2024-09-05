@@ -18,9 +18,7 @@ $genero = $_POST['Genero'];
 $politica = $_POST['Politica'];
 
 
-foreach ($_POST as $clave => $valor) {
-    echo "Clave: " . $clave . ", Valor: " . $valor . "<br>";
-}
+
 ?>
 
 <!DOCTYPE html>
@@ -37,9 +35,11 @@ foreach ($_POST as $clave => $valor) {
     </div>
     
     <div class="contenedor">
-        <table>
+        <table border="1">
             <?php
-
+                foreach ($_POST as $clave => $valor) {
+                    echo "<tr> <td>" . $clave . "</td>" . "<td>" . $valor . "</td> </tr>";
+                }
             ?>
         </table>
     </div>
