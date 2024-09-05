@@ -13,9 +13,11 @@ $edad = $_POST['Edad'];
 $direccion = $_POST['Direccion'];
 $telefono = $_POST['Telefono'];
 $diplomado = $_POST['Diplomado'];
-$departamento = $_POST['Departamento'];
-$ciudad = $_POST['Ciudad'];
-$edad = $_POST['Edad'];
+$informacion = $_POST['Informacion'];
+$genero = $_POST['Genero'];
+$politica = $_POST['Politica'];
+
+
 ?>
 
 <h1>El resultado es: <?php echo $resultado; ?></h1>
